@@ -15,7 +15,7 @@ nmap <leader>p :set paste!<CR>
 map <F2> :NERDTreeToggle<CR>
 autocmd vimenter * if !argc() | NERDTree | endif
 let NERDTreeShowHidden=1
-
+let g:NERDTreeDirArrows=0
 
 "ctrlp
 set runtimepath^=~/.vim/bundle/ctrlp.vim
