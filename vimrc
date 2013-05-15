@@ -44,8 +44,16 @@ map <C-8> 8gt
 map <C-9> 9gt
 map <C-0> :tablast<CR>
 
+
+"save using Ctrl-s
 map <C-s> <esc>:w<CR>
 imap <C-s> <esc>:w<CR>
+
+"quit using Crtl-q and force quit using Ctrl-q1
+map <C-q> <esc>:q<CR>                  
+imap <C-q> <esc>:q<CR>
+map <C-q>1 <esc>:q!<CR>
+imap <C-q>1 <esc>:q!<CR>
 
 "rails.vim
 let g:rubycomplete_buffer_loading = 1
