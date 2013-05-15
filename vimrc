@@ -7,6 +7,13 @@ set background=dark
 colorscheme solarized
 set modifiable
 
+" -- General config --
+set number                           "Always show numbers
+set tabstop=2                        "Insert 2 spaces for each tab
+set shiftwidth=2                     "Indent by 2 space characters
+set expandtab                        "Use spaces when using tab key
+set encoding=utf-8                   "Set utf8 as standard encoding
+set autoindent                       
 nmap <leader>l :set list!<CR>
 nmap <leader>n :set number!<CR>
 nmap <leader>p :set paste!<CR>
@@ -39,10 +46,6 @@ map <C-0> :tablast<CR>
 
 map <C-s> <esc>:w<CR>
 imap <C-s> <esc>:w<CR>
-
-set tabstop=2
-set shiftwidth=2
-set autoindent
 
 "rails.vim
 let g:rubycomplete_buffer_loading = 1
