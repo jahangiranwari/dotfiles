@@ -1,0 +1,12 @@
+#
+# Global gitignore settings
+#
+
+#Ignore vim swap files
+.*.s[a-w][a-z]
+
+#Ignore pdf created by rails-erd 
+erd.pdf
+
+#Ignore cache file created by rails_completion
+.rails_generators~

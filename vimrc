@@ -1,6 +1,7 @@
 execute pathogen#infect()
 Helptags
 
+
 filetype plugin indent on
 syntax enable
 set background=dark
@@ -28,7 +29,7 @@ let g:NERDTreeDirArrows=0
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
-
+let g:ctrlp_dont_split = 'nerdtree'
 
 "moving between tabs
 map <C-S-]> gt
@@ -58,4 +59,3 @@ imap <C-q>1 <esc>:q!<CR>
 "rails.vim
 let g:rubycomplete_buffer_loading = 1
 let g:rubycomplete_rails = 1
-
