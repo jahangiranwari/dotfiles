@@ -18,3 +18,6 @@ source ~/.rails.bashrc
 
 PS1='\n[\u@\h \W$(__git_ps1 " \[\e[0;33m\]<%s>\[\e[m\]")]\$ ' #Display current git branch
 
+
+#Load .bashrc when using non-login shell
+[ -f ~/.bashrc ] && . ~/.bashrc
