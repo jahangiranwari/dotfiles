@@ -32,8 +32,9 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_dont_split = 'nerdtree'
 
 "moving between tabs
-map <C-]> gt
-map <C-[> gT
+map  <C-l> :tabn<CR>
+map  <C-h> :tabp<CR>
+map  <C-n> :tabnew<CR>
 
 "save using Ctrl-s
 map <C-s> <esc>:w<CR>
